@@ -1,0 +1,206 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="dark"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>树莓派到底可以用来做什么 | ExileCoder</title><meta name="keywords" content="硬件分享,基础教程,应用介绍"><meta name="author" content="Exile"><meta name="copyright" content="Exile"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#0d0d0d"><meta name="description" content="树莓派虽小，但五脏俱全和普通电脑无异。 电脑能做的大部分事情，在树莓派上都能做，而树莓派以其低能耗、移动便携性、GPIO等特性，很多在普通电脑上难以做好的事情，用树莓派却是很适合的。 树莓派是什么树莓派是一系列为编程教育而设计的只有信用卡大小的微型电脑（单板计算机），拥有丰富的硬件接口，能够安装任何_ARM_平台的操作系统，比如Linux的一些发行版、Android、Windows IoT等。下图">
+<meta property="og:type" content="article">
+<meta property="og:title" content="树莓派到底可以用来做什么">
+<meta property="og:url" content="http://example.com/2022/12/05/%E6%A0%91%E8%8E%93%E6%B4%BE%E7%AE%80%E4%BB%8B/index.html">
+<meta property="og:site_name" content="ExileCoder">
+<meta property="og:description" content="树莓派虽小，但五脏俱全和普通电脑无异。 电脑能做的大部分事情，在树莓派上都能做，而树莓派以其低能耗、移动便携性、GPIO等特性，很多在普通电脑上难以做好的事情，用树莓派却是很适合的。 树莓派是什么树莓派是一系列为编程教育而设计的只有信用卡大小的微型电脑（单板计算机），拥有丰富的硬件接口，能够安装任何_ARM_平台的操作系统，比如Linux的一些发行版、Android、Windows IoT等。下图">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://s1.ax1x.com/2022/12/05/zsqvRg.jpg">
+<meta property="article:published_time" content="2022-12-04T18:32:12.000Z">
+<meta property="article:modified_time" content="2022-12-04T19:36:10.922Z">
+<meta property="article:author" content="Exile">
+<meta property="article:tag" content="硬件分享">
+<meta property="article:tag" content="基础教程">
+<meta property="article:tag" content="应用介绍">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://s1.ax1x.com/2022/12/05/zsqvRg.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/2022/12/05/%E6%A0%91%E8%8E%93%E6%B4%BE%E7%AE%80%E4%BB%8B/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: true,
+    post: true
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"limitCount":50,"languages":{"author":"作者: Exile","link":"链接: ","source":"来源: ExileCoder","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    jQuery: 'https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js',
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+    },
+    fancybox: {
+      js: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isanchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = { 
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2022-12-05 03:36:10'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    })(window)</script><link rel="stylesheet" href="/css/custom.css"><link rel="stylesheet" href="/css/universe.css"><meta name="generator" content="Hexo 6.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="author-avatar"><img class="avatar-img" src="/img/touxiang.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">3</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">标签</div><div class="length-num">6</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://s1.ax1x.com/2022/12/05/zsqvRg.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">ExileCoder</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">树莓派到底可以用来做什么</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-12-04T18:32:12.000Z" title="发表于 2022-12-05 02:32:12">2022-12-05</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-12-04T19:36:10.922Z" title="更新于 2022-12-05 03:36:10">2022-12-05</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E6%A0%91%E8%8E%93%E6%B4%BE/">树莓派</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E6%A0%91%E8%8E%93%E6%B4%BE/%E6%A0%91%E8%8E%93%E6%B4%BE%E5%9F%BA%E7%A1%80/">树莓派基础</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="树莓派到底可以用来做什么"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>树莓派虽小，但五脏俱全和普通电脑无异。</p>
+<p>电脑能做的大部分事情，在树莓派上都能做，而树莓派以其低能耗、移动便携性、GPIO等特性，很多在普通电脑上难以做好的事情，用树莓派却是很适合的。</p>
+<h2 id="树莓派是什么"><a href="#树莓派是什么" class="headerlink" title="树莓派是什么"></a>树莓派是什么</h2><p>树莓派是一系列为<strong>编程教育</strong>而设计的<strong>只有信用卡大小的微型电脑（单板计算机）</strong>，拥有丰富的硬件接口，能够安装任何_ARM_平台的操作系统，比如Linux的一些发行版、Android、Windows IoT等。下图是当下的一款RaspberryPi 4 Model B <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">图片来源</a>：</p>
+<p><img src="/images/shu.jpg"></p>
+<h2 id="作为一台个人电脑，树莓派可以…"><a href="#作为一台个人电脑，树莓派可以…" class="headerlink" title="作为一台个人电脑，树莓派可以…"></a>作为一台个人电脑，树莓派可以…</h2><p>树莓派4B出来的时候，某些标题党自媒体宣传“替代PC”，但Linux系统的PC市场份额很低，桌面软件生态不完善，作为PC用途而言，注定只是一个小众选择。我其中一台树莓派4B来当PC用，总体体验不错，下面从一个<strong>软件开发者的使用角度</strong>一一分析。</p>
+<h3 id="办公用途"><a href="#办公用途" class="headerlink" title="办公用途"></a>办公用途</h3><p>阿特伍德定律告诉我们：<strong>一切可以用Javascript写的东西最终都会用Javascript写</strong>，推导一下就是：一切以前在<strong>客户端</strong>做的事情，最终都将可以在<strong>浏览器</strong>上做。</p>
+<p><strong>各种软件的Web化</strong>，让浏览器成为操作系统之上的“操作系统”，树莓派3B+就可以比较流畅地运行Chromium，树莓派4B表示打开数十个Web页面毫无压力。所以，<strong>能跑浏览器就可以满足大多数普通办公场景</strong>，树莓派CPU和GPU的算力也完全足以应对简单的_办公场_景了。</p>
+<p>那么办公用途安装什么系统合适？对于普通终端用户，安卓系统的软件生态则更加繁荣，装Android可以覆盖更多办公娱乐场景（毕竟已经破产锤子TNT工作站已经验证了安卓PC的可行性 ）；专业领域用户装Raspbian则更合适，比如我这样的程序猿。</p>
+<h3 id="教育用途"><a href="#教育用途" class="headerlink" title="教育用途"></a><strong>教育用途</strong></h3><p>树莓派基金会是一个<strong>慈善组织</strong>，让更多人可以接受到编程教育是树莓派的初衷。买一个老少皆宜的树莓派给孩子玩，比去什么<strong>少儿编程强</strong>多了。</p>
+<p>个人认为孩子参加少儿编程课程是没有必要的。计算机科学是建立在基础学科根基上的，而编程语言又是建立在计算机科学上的，<strong>连数学物理基础都没有的低年级孩子学积木式编程，如建空中楼阁。</strong>让孩子玩的开心、锻炼逻辑思维的方式很多，<strong>除非孩子对计算机有极大的兴趣</strong>，否则我不建议低年级孩子刻意参与编程教育课程。</p>
+<p>但在树莓派上参与编程和计算机相关教育活动，是有别于现在市面上的课程的，因为玩树莓派学计算机更具有灵活性，Raspbian系统自带各种<strong>真正的编程教育软件</strong>和<strong>多种语言的初级IDE软件</strong>，有兴趣可以自由地深入探索，无兴趣不如多去读读书或者参加户外活动。</p>
+<p>下图是经典的编程教育软件Scratch的截图（Scratch当前版本也已经Web化，甚至无需安装客户端也可以玩，不一定要在树莓派上运行，<a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">图片来自Scratch网站</a></p>
+<p><img src="/images/scratch.jpg"></p>
+<p>###游戏用途</p>
+<p>树莓派可以玩<strong>Minecraft</strong>，也可以运行<strong>复古游戏机模拟器</strong>，比如<a target="_blank" rel="noopener" href="https://retropie.org.u/">RetroPie</a>。能在树莓派上玩的游戏有限，可能更适合小众动手能力很强的Geek的需求。</p>
+<p>###编程开发用途</p>
+<ul>
+<li><strong>Python开发：非常棒</strong>，现在Python不仅在机器学习领域是头把交椅，在嵌入式开发也是动态脚本语言第一。树莓派上使用Python的优势在于：</li>
+<li>树莓派上<strong>Python的硬件开发库</strong>非常完善，甚至很多库都<strong>兼容Arduino上跑micropython</strong></li>
+<li>Python本身的跨平台特性，脚本写好放在哪都能跑，比如在树莓派上跑<strong>Tensorflow甚至是PyTorch都可以</strong>！不过在机器学习方面，树莓派的算力就捉襟见肘了。</li>
+<li><strong>Golang开发：差强人意</strong>。能写能跑，但调试不方便，因为Go的Debug工具dlv对ARM的支持2020年才初步解决（<a target="_blank" rel="noopener" href="https://github.com/go-delve/delve/issues/118">https://github.com/go-delve/delve/issues/118</a>）。另一个问题是Go的主场不在嵌入式开发，硬件相关库兼容性和稳定性不足。</li>
+<li><strong>JS&#x2F;TS开发：还不错</strong>。VS Code作为JS&#x2F;TS，甚至是C# .Net Core开发的最佳工具，既可以本机<strong>直接运行VS Code也可以用VS Code Remote模式</strong>。<strong>大部分常用的VSCode插件</strong>在树莓派上都能正常运行，具体来说：</li>
+<li><strong>前端开发体验完美</strong>，虽然Webpack构建时间比Intel i7的机子大概慢一倍多，但Hot Reload仍然是秒级，丝毫不影响开发</li>
+<li>使用JS&#x2F;TS开发NodeJS<strong>后端体验完美</strong>，常用的带C++ Binding的npm库也都能在ARM下正常编译</li>
+<li><strong>嵌入式开发不够好</strong>，生态不完善，一些硬件模块在npm找不到合适的库，目前rpi-gpio库在树莓派4上有问题，毕竟ECMAScript的主场在大前端领域，不是Python的对手。</li>
+</ul>
+<p>###小结</p>
+<p>通过上面几个例子可以看出，作为开发者是可以尝试使用树莓派来替代PC做日常开发的，<strong>主流编程语言及其工具链、三方库大多保持着对ARM平台的兼容性</strong>。中小型项目在开发阶段对计算资源要求并不高，树莓派接上屏幕配个键盘，或是VS Code Remote进行远程开发，都挺好的。当然其局限性也不少，比如：ARM Linux下很难做传统C&#x2F;C++的客户端软件开发；算力有限，大型项目和一些细分领域的专用软件只能用x86平台的中高端PC。</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">Exile</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://example.com/2022/12/05/%E6%A0%91%E8%8E%93%E6%B4%BE%E7%AE%80%E4%BB%8B/">http://example.com/2022/12/05/%E6%A0%91%E8%8E%93%E6%B4%BE%E7%AE%80%E4%BB%8B/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://example.com" target="_blank">ExileCoder</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E7%A1%AC%E4%BB%B6%E5%88%86%E4%BA%AB/">硬件分享</a><a class="post-meta__tags" href="/tags/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/">基础教程</a><a class="post-meta__tags" href="/tags/%E5%BA%94%E7%94%A8%E4%BB%8B%E7%BB%8D/">应用介绍</a></div><div class="post_share"><div class="social-share" data-image="https://s1.ax1x.com/2022/12/05/zsqvRg.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2022/11/06/hello-world/"><img class="prev-cover" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">Hello World</div></div></a></div><div class="next-post pull-right"><a href="/2022/12/06/%E3%80%90Kali%20Linux%E3%80%91kali%E5%B7%A5%E5%85%B7%E5%85%A5%E9%97%A8/"><img class="next-cover" src="https://s1.ax1x.com/2022/12/05/zsqhGD.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">【kali Linux】kali工具入门”</div></div></a></div></nav><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="lv-container" data-id="city" data-uid="MTAyMC81NzU3Mi8zNDAzNg=="></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-info-avatar is-center"><img class="avatar-img" src="/img/touxiang.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-info__name">Exile</div><div class="author-info__description">人生总是十分漫长</div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">3</div></a></div><div class="card-info-data-item is-center"><a href="/tags/"><div class="headline">标签</div><div class="length-num">6</div></a></div><div class="card-info-data-item is-center"><a href="/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div></div><a class="button--animated" id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/Exilecoder"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">技术，资源，共享</div></div><div class="xpand" style="height:200px;"><canvas class="illo" width="800" height="800" style="max-width: 200px; max-height: 200px; touch-action: none; width: 640px; height: 640px;"></canvas></div><script src="https://fastly.jsdelivr.net/gh/xiaopengand/blogCdn@latest/xzxr/twopeople1.js"></script><script src="https://fastly.jsdelivr.net/gh/xiaopengand/blogCdn@latest/xzxr/zdog.dist.js"></script><script id="rendered-js" src="https://fastly.jsdelivr.net/gh/xiaopengand/blogCdn@latest/xzxr/twopeople.js"></script><style>.card-widget.card-announcement {
+margin: 0;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+canvas {
+display: block;
+margin: 0 auto;
+cursor: move;
+}</style><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A0%91%E8%8E%93%E6%B4%BE%E6%98%AF%E4%BB%80%E4%B9%88"><span class="toc-number">1.</span> <span class="toc-text">树莓派是什么</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BD%9C%E4%B8%BA%E4%B8%80%E5%8F%B0%E4%B8%AA%E4%BA%BA%E7%94%B5%E8%84%91%EF%BC%8C%E6%A0%91%E8%8E%93%E6%B4%BE%E5%8F%AF%E4%BB%A5%E2%80%A6"><span class="toc-number">2.</span> <span class="toc-text">作为一台个人电脑，树莓派可以…</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8A%9E%E5%85%AC%E7%94%A8%E9%80%94"><span class="toc-number">2.1.</span> <span class="toc-text">办公用途</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%95%99%E8%82%B2%E7%94%A8%E9%80%94"><span class="toc-number">2.2.</span> <span class="toc-text">教育用途</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2022/12/06/%E3%80%90Kali%20Linux%E3%80%91kali%E5%B7%A5%E5%85%B7%E5%85%A5%E9%97%A8/" title="【kali Linux】kali工具入门”"><img src="https://s1.ax1x.com/2022/12/05/zsqhGD.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【kali Linux】kali工具入门”"/></a><div class="content"><a class="title" href="/2022/12/06/%E3%80%90Kali%20Linux%E3%80%91kali%E5%B7%A5%E5%85%B7%E5%85%A5%E9%97%A8/" title="【kali Linux】kali工具入门”">【kali Linux】kali工具入门”</a><time datetime="2022-12-06T12:45:18.000Z" title="发表于 2022-12-06 20:45:18">2022-12-06</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/12/05/%E6%A0%91%E8%8E%93%E6%B4%BE%E7%AE%80%E4%BB%8B/" title="树莓派到底可以用来做什么"><img src="https://s1.ax1x.com/2022/12/05/zsqvRg.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="树莓派到底可以用来做什么"/></a><div class="content"><a class="title" href="/2022/12/05/%E6%A0%91%E8%8E%93%E6%B4%BE%E7%AE%80%E4%BB%8B/" title="树莓派到底可以用来做什么">树莓派到底可以用来做什么</a><time datetime="2022-12-04T18:32:12.000Z" title="发表于 2022-12-05 02:32:12">2022-12-05</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/11/06/hello-world/" title="Hello World"><img src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Hello World"/></a><div class="content"><a class="title" href="/2022/11/06/hello-world/" title="Hello World">Hello World</a><time datetime="2022-11-06T04:07:41.778Z" title="发表于 2022-11-06 12:07:41">2022-11-06</time></div></div></div></div></div></div></main><footer id="footer" style="background-image: url('https://s1.ax1x.com/2022/12/05/zsqvRg.jpg')"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2022 By Exile</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="/js/search/local-search.js"></script><div class="js-pjax"><script>function loadLivere () {
+  if (typeof LivereTower === 'object') {
+    window.LivereTower.init()
+  }
+  else {
+    (function(d, s) {
+        var j, e = d.getElementsByTagName(s)[0];
+        if (typeof LivereTower === 'function') { return; }
+        j = d.createElement(s);
+        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+        j.async = true;
+        e.parentNode.insertBefore(j, e);
+    })(document, 'script');
+  }
+}
+
+if ('Livere' === 'Livere' || !false) {
+  if (false) btf.loadComment(document.getElementById('lv-container'), loadLivere)
+  else loadLivere()
+}
+else {
+  function loadOtherComment () {
+    loadLivere()
+  }
+}</script></div><canvas id="universe"></canvas><script defer src="/js/universe.js"></script><script src="/js/custom.js"></script><script defer src="https://npm.elemecdn.com/jquery@latest/dist/jquery.min.js"></script><script data-pjax defer src="https://npm.elemecdn.com/tzy-blog/lib/js/theme/chocolate.js"></script><script defer="defer" id="fluttering_ribbon" mobile="true" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-fluttering-ribbon.min.js"></script><script id="click-show-text" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/click-show-text.min.js" data-mobile="false" data-text="富强,民主,文明,和谐,自由,平等,公正,法治,爱国,敬业,诚信,友善" data-fontsize="15px" data-random="false" async="async"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
